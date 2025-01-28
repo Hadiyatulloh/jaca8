@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(107, 107, 255);
+}
+
+.button-container {
+    width: 270px;
+    margin: 40px 500px;
+    position: relative;
+    display: inline-block;
+}
+
+#addButton {
+    width: 260px;
+    height: 260px;
+    border: none;
+    background-color: rgb(216, 18, 18);
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+
+#addButton img {
+    right: 15px;
+    position: relative;
+    bottom: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
+}
+
+#addButton:active {
+    transition: 0.3s;
+    transform: scale(0.5);
+}
+
+#sumDisplay {
+    color: aliceblue;
+    margin-left: 60px;
+    font-size: 20px;
+}
